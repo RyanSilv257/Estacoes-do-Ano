@@ -10,21 +10,21 @@ if (mes == 1 || mes == 2|| mes == 3) {
     }
 } else if (mes == 4 || mes == 5|| mes == 6) {
     if (mes == 6 && dia >= 21){
-    document.write("Inverno")
+    document.write("<p>Inverno</p>")
     } else {
-    document.write("Outono")
+    document.write("<p>Outono</p>")
     }
 } else if (mes == 7 || mes == 8|| mes == 9) {
     if (mes == 9 && dia >= 23){
-    document.write("Primavera")
+    document.write("<p>Primavera</p>")
     } else {
-    document.write("Inverno")
+    document.write("<p>Inverno</p>")
     }
 } else if (mes == 10 || mes == 11 || mes == 12) {
     if (mes == 12 && dia >= 22){
-    document.write("Verão")
+    document.write("<p>Verão</p>")
     } else {
-    document.write("Primavera")
+    document.write("<p>Primavera</p>")
     }
 } 
 
